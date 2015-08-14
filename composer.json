@@ -1,0 +1,16 @@
+{
+    "name": "martinlindhe/data-currencies",
+    "description": "World currencies",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "league/csv": "~7.1",
+        "martinlindhe/data-countries": "~0.1",
+        "martinlindhe/php-mediawiki-client": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MartinLindhe\\DataCurrencies\\": "php/"
+        }
+    }
+}
